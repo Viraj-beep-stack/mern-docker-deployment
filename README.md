@@ -1,6 +1,6 @@
 # MERN Docker Deployment
 
-Production-ready MERN stack application containerized using Docker and deployed on AWS EC2 using modern DevOps practices.
+End-to-end MERN stack deployment using Docker containers, Nginx reverse proxy, and AWS EC2 as the hosting environment. Built with a production-focused DevOps workflow.
 
 ---
 
