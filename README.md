@@ -235,71 +235,8 @@ Allow these inbound ports:
 }
 ```
 
----
-
-## Future Improvements
-
-- GitHub Actions CI/CD
-- HTTPS with SSL certificates
-- Kubernetes deployment
-- Container monitoring
-- Automated deployment pipeline
-
----
-
 ## Author
 
 Viraj
 ```
 
-## 1) Backend setup
-
-```bash
-cd server
-npm install
-npm run dev
-```
-
-Update `server/.env` with your MongoDB Atlas connection string.
-
-## 2) Frontend setup
-
-```bash
-cd client
-npm install
-npm run dev
-```
-
-## Backend env
-
-`server/.env`
-
-```env
-PORT=5000
-MONGODB_URI=mongodb+srv://YOUR_USERNAME:YOUR_PASSWORD@YOUR_CLUSTER.mongodb.net/docker_course_demo?retryWrites=true&w=majority
-```
-
-## Frontend env
-
-`client/.env`
-
-```env
-VITE_API_URL=http://localhost:5000
-```
-
-## API routes
-
-- `GET /api/health`
-- `GET /api/products`
-- `POST /api/products`
-- `DELETE /api/products/:id`
-
-## Sample product payload
-
-```json
-{
-  "name": "Black Hoodie",
-  "price": 1499,
-  "category": "Clothing"
-}
-```
